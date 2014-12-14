@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajax Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+    <div id="contact">
+       
+        <form action="contact.php" method="post" class="contact">
+        <fieldset>
+            <legend>Contact:</legend>
+            <input type="text" name="name" placeholder="Your name">
+            <input type="text" name="email" placeholder="Your email">
+            <textarea name="message"></textarea>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+        </form>
+
+    </div>
+
+    <div id="post"></div>
+    
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

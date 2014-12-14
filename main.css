@@ -1,0 +1,8 @@
+#contact {
+    width: 300px;
+}
+
+input[type="text"],
+textarea {
+    width: 280px;
+}
